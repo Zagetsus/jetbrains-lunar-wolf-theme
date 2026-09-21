@@ -1,0 +1,23 @@
+<idea-plugin>
+    <id>dev.luanverdelho.lunarwolf.theme</id>
+
+    <name>Lunar Wolf Theme</name>
+
+    <vendor email="luanverdelho642@gmail.com">
+        Luan Verdelho
+    </vendor>
+
+    <description><![CDATA[
+        Lunar Wolf is a dark, professional JetBrains theme built around
+        obsidian blacks, charcoal surfaces, crimson accents and restrained
+        lunar tones.
+    ]]></description>
+
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <themeProvider
+                id="4f9f5f43-9f8f-4cc9-8b2a-6e50792ff8b2"
+                path="/themes/LunarWolf.theme.json"/>
+    </extensions>
+</idea-plugin>

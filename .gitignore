@@ -1,0 +1,18 @@
+# IntelliJ / JetBrains
+.idea/
+*.iml
+out/
+
+# Gradle
+.gradle/
+build/
+
+# IntelliJ Platform plugin dev
+.intellijPlatform/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

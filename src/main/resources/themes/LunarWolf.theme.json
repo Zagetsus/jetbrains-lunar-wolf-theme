@@ -1,0 +1,462 @@
+{
+  "name": "Lunar Wolf",
+  "author": "Luan Verdelho",
+  "dark": true,
+
+  "colors": {
+    "Obsidian": "#0A0A0C",
+    "Charcoal": "#18181C",
+    "Raised": "#222227",
+    "Hover": "#29292F",
+    "Border": "#303038",
+
+    "Crimson": "#C1121F",
+    "Scarlet": "#E21D2D",
+    "DarkBlood": "#720E17",
+
+    "BoneWhite": "#F2F0ED",
+    "SteelGray": "#929298",
+    "MutedGray": "#55555D",
+
+    "IceBlue": "#9BDBF3",
+
+    "Success": "#6F9F82",
+    "Warning": "#D2B276"
+  },
+
+  "ui": {
+    "*": {
+      "background": "Obsidian",
+      "foreground": "BoneWhite",
+      "disabledForeground": "MutedGray",
+      "selectionBackground": "DarkBlood",
+      "selectionForeground": "BoneWhite"
+    },
+
+    "MainWindow": {
+      "background": "Charcoal"
+    },
+
+    "Panel": {
+      "background": "Obsidian",
+      "foreground": "BoneWhite"
+    },
+
+    "SidePanel": {
+      "background": "Charcoal"
+    },
+
+    "Label": {
+      "background": "Obsidian",
+      "foreground": "BoneWhite",
+      "disabledForeground": "MutedGray"
+    },
+
+    "ActionButton": {
+      "hoverBackground": "Hover",
+      "pressedBackground": "DarkBlood",
+      "hoverBorderColor": "Border",
+      "focusedBorderColor": "Crimson"
+    },
+
+    "Button": {
+      "background": "Charcoal",
+      "foreground": "BoneWhite",
+
+      "startBackground": "Charcoal",
+      "endBackground": "Charcoal",
+
+      "startBorderColor": "Border",
+      "endBorderColor": "Border",
+
+      "focusedBorderColor": "Crimson",
+      "disabledBorderColor": "Raised",
+
+      "default": {
+        "startBackground": "DarkBlood",
+        "endBackground": "DarkBlood",
+
+        "startBorderColor": "Crimson",
+        "endBorderColor": "Crimson",
+
+        "focusedBorderColor": "Scarlet",
+        "focusColor": "Crimson",
+
+        "foreground": "BoneWhite"
+      }
+    },
+
+    "MenuBar": {
+      "background": "Charcoal",
+      "foreground": "BoneWhite",
+      "hoverBackground": "DarkBlood"
+    },
+
+    "Menu": {
+      "background": "Charcoal",
+      "foreground": "BoneWhite",
+
+      "selectionBackground": "Crimson",
+      "selectionForeground": "BoneWhite",
+
+      "disabledBackground": "Charcoal",
+      "disabledForeground": "MutedGray",
+
+      "separatorColor": "Border"
+    },
+
+    "PopupMenu": {
+      "background": "Charcoal",
+      "foreground": "BoneWhite",
+
+      "selectionBackground": "DarkBlood",
+      "selectionForeground": "BoneWhite"
+    },
+
+    "MenuItem": {
+      "background": "Charcoal",
+      "foreground": "BoneWhite",
+
+      "selectionBackground": "DarkBlood",
+      "selectionForeground": "BoneWhite",
+
+      "disabledBackground": "Charcoal",
+      "disabledForeground": "MutedGray",
+
+      "acceleratorForeground": "SteelGray",
+      "acceleratorSelectionForeground": "BoneWhite"
+    },
+
+    "CheckBoxMenuItem": {
+      "background": "Charcoal",
+      "foreground": "BoneWhite",
+
+      "selectionBackground": "DarkBlood",
+      "selectionForeground": "BoneWhite",
+
+      "disabledBackground": "Charcoal",
+      "disabledForeground": "MutedGray",
+
+      "acceleratorForeground": "SteelGray",
+      "acceleratorSelectionForeground": "BoneWhite"
+    },
+
+    "RadioButtonMenuItem": {
+      "background": "Charcoal",
+      "foreground": "BoneWhite",
+
+      "selectionBackground": "DarkBlood",
+      "selectionForeground": "BoneWhite",
+
+      "disabledBackground": "Charcoal",
+      "disabledForeground": "MutedGray",
+
+      "acceleratorForeground": "SteelGray",
+      "acceleratorSelectionForeground": "BoneWhite"
+    },
+
+    "Popup": {
+      "borderColor": "Border",
+      "inactiveBorderColor": "Border",
+
+      "Header": {
+        "activeBackground": "Charcoal",
+        "inactiveBackground": "Charcoal"
+      },
+
+      "Advertiser": {
+        "background": "Charcoal",
+        "foreground": "SteelGray"
+      }
+    },
+
+    "Tree": {
+      "background": "Charcoal",
+      "foreground": "BoneWhite",
+
+      "hoverBackground": "Raised",
+
+      "selectionBackground": "DarkBlood",
+      "selectionForeground": "BoneWhite",
+
+      "selectionInactiveBackground": "Raised",
+
+      "modifiedItemForeground": "Crimson"
+    },
+
+    "List": {
+      "background": "Charcoal",
+      "foreground": "BoneWhite",
+
+      "hoverBackground": "Raised",
+
+      "selectionBackground": "DarkBlood",
+      "selectionForeground": "BoneWhite",
+
+      "selectionInactiveBackground": "Raised"
+    },
+
+    "Table": {
+      "background": "Obsidian",
+      "foreground": "BoneWhite",
+
+      "selectionBackground": "DarkBlood",
+      "selectionForeground": "BoneWhite",
+
+      "gridColor": "Border",
+      "hoverBackground": "Raised"
+    },
+
+    "TableHeader": {
+      "background": "Charcoal",
+      "foreground": "BoneWhite",
+      "bottomSeparatorColor": "Border"
+    },
+
+    "TextField": {
+      "background": "Obsidian",
+      "foreground": "BoneWhite",
+
+      "selectionBackground": "DarkBlood",
+      "selectionForeground": "BoneWhite",
+
+      "caretForeground": "BoneWhite",
+
+      "focusedBorderColor": "Crimson"
+    },
+
+    "TextArea": {
+      "background": "Obsidian",
+      "foreground": "BoneWhite",
+
+      "selectionBackground": "DarkBlood",
+      "selectionForeground": "BoneWhite",
+
+      "caretForeground": "BoneWhite"
+    },
+
+    "PasswordField": {
+      "background": "Obsidian",
+      "foreground": "BoneWhite",
+
+      "selectionBackground": "DarkBlood",
+      "selectionForeground": "BoneWhite",
+
+      "caretForeground": "BoneWhite"
+    },
+
+    "ComboBox": {
+      "background": "Charcoal",
+      "foreground": "BoneWhite",
+
+      "selectionBackground": "DarkBlood",
+      "selectionForeground": "BoneWhite"
+    },
+
+    "CheckBox": {
+      "background": "Obsidian",
+      "foreground": "BoneWhite"
+    },
+
+    "RadioButton": {
+      "background": "Obsidian",
+      "foreground": "BoneWhite"
+    },
+
+    "Separator": {
+      "separatorColor": "Border"
+    },
+
+    "ToolBar": {
+      "background": "Charcoal",
+      "borderHandleColor": "Border"
+    },
+
+    "MainToolbar": {
+      "background": "Charcoal",
+      "inactiveBackground": "Charcoal",
+
+      "borderColor": "Border",
+      "hoverBackground": "Raised",
+      "lightSelectionBackground": "DarkBlood",
+
+      "Dropdown": {
+        "hoverBackground": "Raised"
+      },
+
+      "Tab": {
+        "hoverBackground": "Raised",
+        "selectedBackground": "DarkBlood",
+        "selectedForeground": "BoneWhite"
+      }
+    },
+
+    "ToolWindow": {
+      "background": "Charcoal",
+
+      "Button": {
+        "hoverBackground": "Raised",
+        "selectedBackground": "DarkBlood",
+        "selectedForeground": "BoneWhite"
+      },
+
+      "Header": {
+        "background": "Charcoal",
+        "inactiveBackground": "Charcoal",
+        "borderColor": "Border"
+      },
+
+      "HeaderTab": {
+        "hoverBackground": "Raised",
+        "underlineColor": "Crimson",
+        "inactiveUnderlineColor": "DarkBlood"
+      },
+
+      "Stripe": {
+        "background": "Charcoal",
+        "borderColor": "Border"
+      }
+    },
+
+    "DefaultTabs": {
+      "background": "Obsidian",
+
+      "underlinedTabBackground": "Charcoal",
+      "inactiveUnderlinedTabBackground": "Obsidian",
+
+      "underlinedBorderColor": "Crimson",
+      "inactiveUnderlinedTabBorderColor": "DarkBlood",
+
+      "underlineColor": "Crimson",
+
+      "hoverBackground": "Raised"
+    },
+
+    "EditorTabs": {
+      "background": "Obsidian",
+      "foreground": "SteelGray",
+
+      "selectedForeground": "BoneWhite",
+
+      "underlinedTabBackground": "Charcoal",
+      "inactiveUnderlinedTabBackground": "Obsidian",
+
+      "underlinedBorderColor": "Crimson",
+      "inactiveUnderlinedTabBorderColor": "DarkBlood",
+
+      "underlineColor": "Crimson",
+
+      "hoverBackground": "Raised"
+    },
+
+    "TabbedPane": {
+      "background": "Obsidian",
+      "foreground": "BoneWhite",
+
+      "contentAreaColor": "Border",
+
+      "focusColor": "Crimson",
+      "hoverColor": "Raised",
+
+      "underlineColor": "Crimson"
+    },
+
+    "StatusBar": {
+      "background": "Charcoal",
+      "foreground": "SteelGray",
+
+      "borderColor": "Border",
+      "hoverBackground": "Raised"
+    },
+
+    "ScrollBar": {
+      "thumbColor": "Raised",
+      "thumbBorderColor": "Raised",
+
+      "hoverThumbColor": "SteelGray",
+      "hoverThumbBorderColor": "SteelGray"
+    },
+
+    "ProgressBar": {
+      "trackColor": "Raised",
+
+      "progressColor": "Crimson",
+
+      "passedColor": "Success",
+      "passedEndColor": "Success",
+
+      "failedColor": "Scarlet",
+      "failedEndColor": "DarkBlood",
+
+      "indeterminateStartColor": "Crimson",
+      "indeterminateEndColor": "Scarlet"
+    },
+
+    "Link": {
+      "activeForeground": "IceBlue",
+      "hoverForeground": "IceBlue",
+      "pressedForeground": "BoneWhite",
+      "visitedForeground": "SteelGray"
+    },
+
+    "SearchEverywhere": {
+      "SearchField": {
+        "background": "Charcoal"
+      },
+
+      "Tab": {
+        "selectedBackground": "DarkBlood",
+        "selectedForeground": "BoneWhite"
+      }
+    },
+
+    "SearchMatch": {
+      "startBackground": "DarkBlood",
+      "endBackground": "DarkBlood"
+    },
+
+    "Notification": {
+      "background": "Charcoal",
+
+      "errorBackground": "DarkBlood",
+      "errorForeground": "BoneWhite",
+
+      "warningBackground": "Raised",
+      "warningForeground": "Warning",
+
+      "infoBackground": "Charcoal",
+      "infoForeground": "IceBlue"
+    },
+
+    "WelcomeScreen": {
+      "separatorColor": "Border",
+
+      "SidePanel": {
+        "background": "Charcoal"
+      },
+
+      "Projects": {
+        "background": "Obsidian",
+        "selectionBackground": "DarkBlood",
+        "selectionInactiveBackground": "Raised"
+      }
+    }
+  },
+
+  "icons": {
+    "ColorPalette": {
+      "Actions.Blue": "#9BDBF3",
+      "Actions.Red": "#E21D2D",
+      "Actions.Green": "#6F9F82",
+      "Actions.Yellow": "#D2B276",
+
+      "Actions.Grey": "#929298",
+      "Actions.GreyInline": "#929298",
+      "Actions.GreyInline.Dark": "#929298",
+
+      "Objects.Red": "#C1121F",
+      "Objects.RedStatus": "#E21D2D",
+      "Objects.Grey": "#929298"
+    }
+  }
+}

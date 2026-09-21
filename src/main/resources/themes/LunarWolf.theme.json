@@ -3,6 +3,8 @@
   "author": "Luan Verdelho",
   "dark": true,
 
+  "editorScheme": "/themes/LunarWolf.xml",
+
   "colors": {
     "Obsidian": "#0A0A0C",
     "Charcoal": "#18181C",
